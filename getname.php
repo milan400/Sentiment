@@ -1,5 +1,5 @@
 <?php
 
 $name = $_GET["name"];
-echo shell_exec("python3 /opt/lampp/htdocs/ptop/sentiment.py {$name}")
+echo shell_exec("python3 https://github.com/milan400/Sentiment/blob/master/sentiment.py {$name}")
 ?>
